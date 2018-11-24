@@ -11,15 +11,17 @@
 <body>
     <section>
         <article>
-            <h3>Native English Speaker</h3>
+            <h3>Read Sentence</h3>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">please write the sentence</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label class="btn btn-secondary " id="fileinput">
+                    Browse <input type="file" style="display: none;" multiple />
+                </label>
                 <button type="button" id="btnClick" class="btn btn-danger btn-lg btn-block">Read Sentence</button>
             </div>
         </article>
     </section>
-    <input type="file" id="fileinput" multiple />
     <script src="./scripts/main.js"></script>
 </body>
 </html>
